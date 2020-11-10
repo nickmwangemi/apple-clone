@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana,
+		sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.billboard {
+	background-color: red;
+	font-weight: 400;
+	text-decoration: none solid rgb(51, 51, 51);
+	line-height: 18px;
+	text-align: center;
+	margin-left: 43px;
+	margin-right: 43px;
+}
+
+.promos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+footer {
+	font-size: 10px;
+	margin-left: 250px;
+	margin-right: 250px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
+	color: #8e8093;
+}
+
+#footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #64b0e5;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin-left: 170px;
+}
+
+#copyright {
+	display: inline;
+}
